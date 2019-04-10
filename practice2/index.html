@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Визитки по доступной цене! Быстро, недорого, качественно.">
+	<meta name="keywords" content="визитки, визитки недорого, визитки на заказ, визитки под заказ, визитные карточки, дизайн визиток">
+	<title>Ваша визитка!</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+	<!--Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- my own CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="container">
+<h1><q>В человеке всё должно быть прекрасно : и лицо, и одежда, и душа, и <u><i>визитка</i></u>!</q><cite> А. П. Чехов.</cite></h1>
+<p class='meeting text-center'>Почему мы ? <br> У нас вы сможете самостоятельно рассчитать стоимость  необходимого Вам количества визиток, учитывая, что стоимость нашей работы ниже средней рыночной. <br> Решайтесь и порадуйте новых клиентов удобной обратной связью с Вами уже сегодня!</p>
+	<section id="main">
+			<div class="row">
+				<div class="col-sm-5">
+					<h2><i><b>Рассчет стоимости</b></i></h2>
+					<div class="calc">
+						<label for="card_edition">Выберите тираж (шт.) :</label>
+						<br>
+						<select name="form-control" id="card_edition">
+							<option value="90">90</option>
+							<option value="120">120</option>
+							<option value="150">150</option>
+							<option value="180">180</option>
+							<option value="210">210</option>
+							<option value="240">240</option>
+							<option value="270">270</option>
+							<option value="300">300</option>
+							<option value="360">330</option>
+							<option value="420">420</option>
+							<option value="510">510</option>
+							<option value="600">600</option>
+							<option value="900">900</option>
+							<option value="1020">1020</option>
+							<option value="1500">1500</option>
+							<option value="3000">3000</option>
+						</select>
+						<br><br>
+						
+						<label for="card_paper">Выберите бумагу :</label>
+						<br>
+						<select name="card_paper" id="card_paper" class="form-control">
+							<option data-paper-ratio ='1' value="Мелованная бумага">Мелованная бумага (белая)</option>
+							<option data-paper-ratio ='2' value="Бумага повышенной белизны">Бумага повышенной белезны</option>
+							<option data-paper-ratio ='3' value="Лён белый">Лён белый</option></option>
+						</select>
+						<br>
+						<label for="card_color">Выберите цветность :</label>
+						<select name="card_color" id="card_color" class="form-control">
+							<option data-print='1' data-print-file='110' data-color='1' value="Односторонняя черно-белая">Односторонняя черно-белая</option>
+							<option data-print='1.5' data-print-file='220' data-color='2' value="Двусторонняя черно-белая">Двусторонняя черно-белая</option>
+							<option data-print='2' data-print-file='110' data-color='3' value="Односторонняя цветная">Односторонняя цветная</option>
+							<option data-print='2.5' data-print-file='220' data-color='4' value="Цветная с лицевой и черно-белая с оборотной">Цветная с лицевой и черно-белая с оборотной</option>
+							<option data-print='3' data-print-file='220' data-color='5' value="Двусторонняя цветная">Двусторонняя цветная</option>
+						</select>
+						<br>
+							<h3><i>Стоимость за тираж:</i></h3>
+						<p class='price'><span id="final_price">0</span> грн.
+						</p>
+					</div>
+				</div><div class="col-sm-7">
+					<div class="card-images text-center">
+						<label for="card-images"><h4><b><i>Примеры наших работ :</i></b></h4></label><br>
+						<img src="img/img_1_0.png" alt="Визитка(модель-1)" id="card_1_0">
+						<img src="img/img_1_1.png" alt="Визитка(модель-2)" id="card_1_1">
+						<img src="img/img_2.0.png" alt="Визитка(модель-3)" id="card_2_0">
+						<img src="img/img_2_1.png" alt="Визитка(модель-4)" id="card_2_1">
+						<img src="img/img_2_2.png" alt="Визитка(модель5)" id="card_2_2">
+					</div>
+				</div>
+			</div><br><br><br>
+	<!--</div>-->
+<p class='under-text text-center'>Вы можете заказать доставку удобной для Вас почтой Украины, нашим курьером, а также забрать заказ самостоятельно с нашего офиса <i>"Visit-card UA"</i>, расположенного по адресу : г. Днепр, ул. Генерала Пушкина, 30-А.</p>
+	</section>
+
+<form class='feedback-form-group'>
+	<h2 class='h2'><i>Заполните форму и мы свяжемся с Вами в течении 5 минут:</i></h2>
+		<div class='feedback-info'>
+			<label for='fullname'>Ваше имя : </label>
+			<input type="text" name='fullname' id='fullname' placeholder=" Введите имя">
+		</div>
+		<div class='contact-number'>
+			<label for='contacts'>Ваш номер :</label>
+			<input type="text" name='contacts' id='contacts' placeholder=" Введите моб. номер">
+		</div>	
+		<div class='email-contact'>
+			<label for='email'>Ваш E-mail :</label>
+			<input type="text" name="email" id='email' placeholder=" Введите э-мейл">
+		</div>
+		<div class='checkbox'>
+			<input type='checkbox' checked>Я согласен(-на) получать рассылку об акциях.
+		</div>
+		<div class='submit'>
+			<input type='submit' class='btn' value='Заказать'>
+		</div>
+<p class='sale'><i><u>Сделайте заказ сейчас и получите скидку - 10%!</u></i></p>
+</form>
+
+<div class="footer text-center	">
+	<p>&copy; Сайт разработан группой "YourWebApp". Вы можете посетить наш<a href="#" title='Перейти на сайт'> <b><u>сайт.</u></b></a></p>
+</div>
+
+	<!--JQuery(1), Popper.js(2), Bootstrap JS(3), my script(4)-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src='js/script.js'></script>
+</div>
+</body>
+</html>
